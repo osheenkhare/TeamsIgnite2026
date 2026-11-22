@@ -95,9 +95,11 @@ In this exercise, you will:
    - TAP (Temporary Access Pass): `@lab.CloudCredential(WWLM365E7).PattiFTAP`
 
    If prompted, select **Yes**. Wait for the account to be added to the device, then select **Done**. Wait ~45 sec after you sign in for the script to execute.
+
    ![bboldc3g.jpg](.images/bboldc3g.jpg)
 
    Once the script finishes, it will indicate that sideloading is enabled.
+
    ![9d6na16t.jpg](.images/9d6na16t.jpg)
 
 4. [ ] Close the Terminal
@@ -163,7 +165,9 @@ In this exercise, you will:
 2. [ ] Search for `gpt-5.4-mini`
 
    > **Warning:** gpt-5.4-mini is the only model available for deployment in this lab's Azure Subscription.
+   >
    > ![Available model](.images/cvc9kz7s.jpg)
+   >
 
 3. [ ] Open the **gpt-5.4-mini** model details page, then select Custom Deploy.
 
@@ -220,6 +224,7 @@ In this exercise, you will:
    `@lab.CloudCredential(WWLM365E7).PattiFTAP`
 
    Once you have signed in as `PattiF`, **close the browser**.
+
    ![oa5hpxz1.jpg](.images/oa5hpxz1.jpg)
 
 ---
@@ -439,7 +444,9 @@ In this exercise, you will:
 2. [ ] Navigate to the top of the messages.
 
    > **Tip:** You can maximize a thread by clicking _Open X replies_
+   >
    > ![b6jch96y.jpg](.images/b6jch96y.jpg)
+   >
 
 3. [ ] Start by @mentioning the agent in a Teams thread.
 
@@ -450,7 +457,9 @@ In this exercise, you will:
    `Can you summarize this thread and give the next steps ?`
 
    > **Tip:** Make sure to @mention and resolve the agent name before entering this prompt.
+   >
    > ![vltgs6ph.jpg](.images/vltgs6ph.jpg)
+   >
 
 5. [ ] The agent should acknowledge the message by replying with an emoji.
 6. [ ] Once processing is complete, the agent will reply with a summary of the conversation.
